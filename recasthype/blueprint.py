@@ -3,7 +3,7 @@ blueprint = Blueprint('hype_analysis', __name__, template_folder='templates')
 
 import json
 import requests
-import hype_backendtasks
+from recasthype import backendtasks
 import requests
 import os
 from zipfile import ZipFile
